@@ -1,0 +1,40 @@
+{
+  "name": "font-web-engineering",
+  "version": "1.0.0",
+  "description": "前端工程化配置",
+  "main": "dist/main.ts",
+  "types": "dist/types/index.d.ts",
+  "scripts": {
+    "dev": "tsc --watch",
+    "build": "npm run clean && tsc",
+    "lint": "eslint src --ext .js,.ts --cache --fix",
+    "clean": "rm -rf dist"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hedahang/font-web-engineering.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hedahang/font-web-engineering/issues"
+  },
+  "homepage": "https://github.com/hedahang/font-web-engineering#readme",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.30.4",
+    "@typescript-eslint/parser": "^5.30.4",
+    "eslint": "^8.19.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-n": "^15.2.3",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-promise": "^6.0.0",
+    "prettier": "^2.7.1",
+    "typescript": "^4.7.4"
+  }
+}
