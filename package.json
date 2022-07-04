@@ -9,7 +9,7 @@
     "build": "npm run clean && tsc",
     "lint": "eslint src --ext .js,.ts --cache --fix",
     "clean": "rm -rf dist",
-    "prepare":"husky install"
+    "prepare": "husky install"
   },
   "publishConfig": {
     "access": "public"
@@ -26,6 +26,8 @@
   },
   "homepage": "https://github.com/hedahang/font-web-engineering#readme",
   "devDependencies": {
+    "@commitlint/cli": "^17.0.3",
+    "@commitlint/config-conventional": "^17.0.3",
     "@typescript-eslint/eslint-plugin": "^5.30.4",
     "@typescript-eslint/parser": "^5.30.4",
     "eslint": "^8.19.0",
